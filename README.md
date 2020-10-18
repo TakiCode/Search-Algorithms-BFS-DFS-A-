@@ -58,7 +58,7 @@ BFS       | DFS    |  A* (Euclidian distance) | A* (Manhattan distance) | A*(Var
 
 
 
-## Codes and simulations by [SOUALHI Takieddine] and [Zichi Djamel]
+## Codes and simulations by [SOUALHI Takieddine](https://github.com/TakiCode) and Zichi Djamel
 
 
 
