@@ -32,18 +32,18 @@ Searching is the universal technique of problem solving in AI. this project will
 
 **Functions Provided :** 
    * You find different functions to create the scenario and display the path estimated withing the search functions ( No modify needed however You're free to add some features ) : 
-       - [CreateScenario](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/CreateScenario.m),[DisplayScenario](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/DisplayScenario.m) : Create the scenario as a map.We first select the **TARGET** node, then the **Obstacles** ( follow instructions ) and finely the **START** node .See figure
+       - [CreateScenario],[DisplayScenario] : Create the scenario as a map.We first select the **TARGET** node, then the **Obstacles** ( follow instructions ) and finely the **START** node .See figure
        
        
 Target Node        |    Obstacles         |      Start Node        
 :-----------------:|:--------------------:|:-------------------:
 <img src="https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/files./target.jpg" width="250"> |  <img src="https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/files./obstacle.jpg" width="250"> | <img src="https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/files./start.jpg" width="250">
 
- - [AnimatePath](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/filesAnimatePath.m) : Display the founded path on the scenario
- - [Matrix2List](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/Matrix2List.m) : Converts an incident matrix to an incident list
- - [IncidentMatrix](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/IncidentMatrix.m) : This function creates the incident matrix based on the scneario defined on the graphical interface form script main.m
- - [IncidentList](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/IncidentList.m) : This function creates the incident List based on the scneario defined on the graphical interface form script main.m
- - [IncidentMatrix2](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/IncidentMatrix2.m) , [IncidentList2](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/IncidentList2.m) :same functions as above but uses irregular costs , check [update_nodes](https://github.com/AissamDjahnine/Search-Algorithms-in-AI/blob/master/Updates_Nodes.m).
+ - [AnimatePath] : Display the founded path on the scenario
+ - [Matrix2List] : Converts an incident matrix to an incident list
+ - [IncidentMatrix] : This function creates the incident matrix based on the scneario defined on the graphical interface form script main.m
+ - [IncidentList] : This function creates the incident List based on the scneario defined on the graphical interface form script main.m
+ - [IncidentMatrix2] , [IncidentList2] :same functions as above but uses irregular costs , check [update_nodes].
       
            
 ## Execution & tests : 
@@ -59,11 +59,8 @@ BFS       | DFS    |  A* (Euclidian distance) | A* (Manhattan distance) | A*(Var
 **Codes and simulations in Python will be provided soon**
 
 
-## Authors
+## READ ME CREDITS: [Djahnine Aissam](https://github.com/AissamDjahnine)
 
-**Djahnine Aissam**  
-- [Github Profile](https://github.com/AissamDjahnine)
-- [Linkedin Profile](https://www.linkedin.com/in/aissamdjahnine/)
 
 
 ## Acknowledgments
