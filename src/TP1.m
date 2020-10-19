@@ -34,7 +34,7 @@ TargetNode=Map_plan2node(target_x,target_y);
 [root_x,root_y]=find(Plan==0);
 RootNode=Map_plan2node(root_x,root_y);
 
-%%%%%%%%%%%%  BreadthFirst Search & Depth First Search %%%%%%%%%%%%%%%%%%%%%%%%ù
+%%%%%%%%%%%%  BreadthFirst Search & Depth First Search %%%%%%%%%%%%%%%%%%%%%%%%Ã¹
 Open=0;
 
 % [Open,Nparcourus,Chemin]=RechercheEnProfondeur(NodeList, RootNode, TargetNode);
@@ -55,13 +55,13 @@ AnimatePath(Chemin,Map_plan2node,'b');
 [exploredNodes,Chemin] = AstarMan(NodeList,Map_plan2node,RootNode,TargetNode);
 AnimatePath(Chemin,Map_plan2node,'m');
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Complexité en temps %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%% ComplexitÃ© en temps %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 tic;[Open,Nparcourus,Chemin]=RechercheEnLArgeur(NodeList, RootNode, TargetNode);T_Breadth=toc;
 tic;[Open,Nparcourus,Chemin]=RechercheEnProfondeur(NodeList, RootNode, TargetNode);T_Depth=toc;
 tic;[exploredNodes,Chemin] = Astar(NodeList,Map_plan2node,RootNode,TargetNode);T_Astar_Euc=toc;
 tic;[exploredNodes,Chemin] = AstarMan(NodeList,Map_plan2node,RootNode,TargetNode);T_Astar_Man=toc;
 
-%%%%%%%%%%%QUESTION09 : Complexité en espace%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%QUESTION09 : ComplexitÃ© en espace%%%%%%%%%%%%%%%%%
 load('tree1.mat');
 load('tree2.mat');
 Tree1=Matrix2List(tree1);
